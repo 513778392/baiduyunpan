@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:id="@+id/zhuan_lin"
+    android:background="@color/white"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ListView
+            android:id="@+id/yidong_list"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:divider="@color/beiyingd"
+            android:dividerHeight="1px"
+            android:scrollbarThumbVertical="@drawable/scrollbar"
+            android:layout_height="0dp">
+
+        </ListView>
+        <View
+            android:id="@+id/v1"
+            android:background="@color/beiyingd"
+            android:layout_width="match_parent"
+            android:layout_height="1px"/>
+        <LinearLayout
+            android:id="@+id/zhuancun_linear"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="40dp">
+            <TextView
+                android:id="@+id/lujing"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="转存路径"
+                android:textSize="12sp"
+                android:layout_marginLeft="10dp"
+                android:gravity="center_vertical"
+                android:textColor="@color/zitiyanse9"
+                android:layout_height="match_parent" />
+            <TextView
+                android:textColor="@color/zitiyanse6"
+                android:textSize="12sp"
+                android:id="@+id/zhuancun_lujing"
+                android:layout_width="wrap_content"
+                android:text="根目录"
+                android:layout_marginRight="10dp"
+                android:gravity="center_vertical"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+        <View
+            android:id="@+id/v2"
+            android:background="@color/beiyingd"
+            android:layout_width="match_parent"
+            android:layout_height="1px"/>
+        <LinearLayout
+            android:id="@+id/baocun_linear"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="48dp">
+            <TextView
+                android:id="@+id/queding"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="保存"
+                android:textColor="@color/zitiyanse6"
+                android:gravity="center"
+                android:textSize="14sp"
+                android:background="?android:attr/selectableItemBackground"
+                android:layout_height="match_parent" />
+            <View
+                android:id="@+id/v3"
+                android:background="@color/beiyingd"
+                android:layout_width="1px"
+                android:layout_gravity="center_vertical"
+                android:layout_height="20dp"/>
+            <TextView
+                android:id="@+id/quxiao"
+                android:layout_width="0dp"
+                android:gravity="center"
+                android:textSize="14sp"
+                android:textColor="@color/zitiyanse6"
+                android:text="取消"
+                android:background="?android:attr/selectableItemBackground"
+                android:layout_weight="1"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

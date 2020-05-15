@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/beiying"
+    android:id="@+id/xinpain_relative"
+    tools:context="com.example.myapplication.XinPianActivity">
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:layout_width="match_parent"
+        android:id="@+id/swipeRefreshLayout"
+        android:layout_marginBottom="48dp"
+        android:layout_height="match_parent">
+    <ListView
+        android:id="@+id/xinpain"
+        android:layout_width="match_parent"
+        android:scrollbarThumbVertical="@drawable/scrollbar"
+        android:dividerHeight="1px"
+        android:divider="@color/beiyingd"
+        android:layout_height="match_parent">
+    </ListView>
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+
+    <View
+        android:id="@+id/v"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="48dp"
+        android:background="@color/beiyingd"
+        android:layout_width="match_parent"
+        android:layout_height="1px"/>
+    <RelativeLayout
+        android:layout_alignParentBottom="true"
+        android:id="@+id/fan_relative"
+        android:layout_width="match_parent"
+
+        android:layout_height="48dp">
+
+    <TextView
+       android:id="@+id/fanhui"
+        android:text="返回"
+        android:textSize="16sp"
+        android:textColor="@color/zitiyanse6"
+        android:gravity="center"
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+        <TextView
+            android:id="@+id/fan"
+            android:background="?android:attr/selectableItemBackground"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </RelativeLayout>
+<FrameLayout
+    android:background="@mipmap/deng"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"></FrameLayout>
+</RelativeLayout>

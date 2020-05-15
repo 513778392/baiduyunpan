@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="qianshou">#39d688</color>
+    <color name="zitiyanse6">#666666</color>
+    <color name="zitiyanse9">#999999</color>
+    <color name="zitiyanse3">#333333</color>
+    <color name="zitiyanse7">#3db537</color>
+    <color name="zitiyanseb">#50bb4b</color>
+    <color name="beiying">#f5f5f5</color>
+    <color name="beiying0">#82c8a0</color>
+    <color name="white">#ffffff</color>
+    <color name="zitiyanse1">#228a31</color>
+    <color name="black">#000000</color>
+    <color name="zitiyanse8">#39d688</color>
+    <color name="beiyingd">#e4e4e4</color>
+    <color name="heiye">#222222</color>
+    <color name="beiyingdd">#444444</color>
+</resources>

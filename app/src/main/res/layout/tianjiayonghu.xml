@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@color/beiying"
+    android:layout_height="match_parent">
+    <ListView
+        android:id="@+id/yonghu_list"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="48dp"
+        android:divider="@color/beiyingd"
+        android:dividerHeight="1px"
+        android:scrollbarThumbVertical="@drawable/scrollbar"
+        android:layout_height="match_parent">
+
+    </ListView>
+    <View
+        android:id="@+id/v2"
+        android:layout_below="@+id/yonghu_list"
+        android:layout_marginBottom="48dp"
+        android:background="@color/beiyingd"
+        android:layout_width="match_parent"
+        android:layout_height="1px"/>
+    <LinearLayout
+        android:layout_alignParentBottom="true"
+        android:id="@+id/fan_relative"
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="48dp">
+        <TextView
+
+            android:id="@+id/fanhui"
+            android:text="返回"
+            android:background="?android:attr/selectableItemBackground"
+            android:layout_width="0dp"
+            android:gravity="center"
+            android:textSize="16sp"
+            android:layout_weight="1"
+            android:layout_height="match_parent" />
+        <View
+            android:id="@+id/v1"
+            android:background="@color/beiyingd"
+            android:layout_width="1px"
+            android:layout_gravity="center_vertical"
+            android:layout_height="30dp"/>
+        <TextView
+            android:id="@+id/zhanghao"
+            android:text="添加账号"
+            android:textSize="16sp"
+            android:background="?android:attr/selectableItemBackground"
+            android:textColor="@color/zitiyanse6"
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+    <View
+        android:id="@+id/v"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="48dp"
+        android:background="@color/beiyingd"
+        android:layout_width="match_parent"
+        android:layout_height="1px"/>
+</RelativeLayout>

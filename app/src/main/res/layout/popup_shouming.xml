@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="267dp"
+            android:background="@drawable/paihang5"
+            android:layout_margin="10dp"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/bangding_text"
+                android:text="说明"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:layout_height="33dp" />
+
+            <LinearLayout
+                android:id="@+id/bangding_linear"
+                android:orientation="vertical"
+                android:background="@drawable/paihang3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <LinearLayout
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:layout_height="0dp">
+                <TextView
+                    android:text="1.不要修改任何密码。\n2.创建属于自己的文件夹。\n3.不要删除不是自己的文件。"
+                    android:id="@+id/wenben"
+                    android:textColor="@color/zitiyanse6"
+                    android:textSize="13sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                    <TextView
+                        android:text="4.禁止存低俗及暴力内容，会被封号。"
+                        android:id="@+id/wenben1"
+                        android:textColor="#ed4d2c"
+                        android:textSize="13sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:text="5.共用帐号，不要存个人重要文件。\n6.请不要再给其他人用，谢谢理解。\n7.付款后10分钟左右即可看到帐号。\n8.付款后5分钟内可以退款。\n9.显示帐号后不可退款。\n10.帐号可以满速下载。\n11.帐号可以次月续费。\n12.其它问题加群讨论。"
+                        android:id="@+id/wenben2"
+                        android:textColor="@color/zitiyanse6"
+                        android:textSize="13sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                </LinearLayout>
+                <View
+                    android:id="@+id/v1"
+                    android:background="@color/beiying"
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:id="@+id/line"
+                    android:layout_height="33dp">
+                    <TextView
+                        android:id="@+id/queding"
+                        android:text="我知道了"
+                        android:gravity="center"
+                        android:background="?android:attr/selectableItemBackground"
+                        android:textSize="14sp"
+                        android:textColor="@color/zitiyanse9"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" />
+                </LinearLayout>
+           </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

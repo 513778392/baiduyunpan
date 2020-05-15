@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:id="@+id/yidong_lin"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:background="?android:attr/selectableItemBackground"
+        android:layout_height="67dp">
+        <ImageView
+            android:src="@mipmap/wenjj"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:maxLines="15"
+            android:ellipsize="end"
+            android:layout_gravity="center_vertical"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:maxEms="50"
+            android:ellipsize="end"
+            android:maxLines="2"
+            android:textColor="@color/zitiyanse6"
+            android:singleLine="true"
+            android:textSize="16sp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="10dp"
+            android:id="@+id/yidong_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+
+            android:layout_width="267dp"
+            android:background="@drawable/paihang5"
+            android:layout_margin="10dp"
+            android:layout_height="237dp">
+
+            <TextView
+                android:id="@+id/bangding_text"
+                android:text="选择接受版本"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:layout_height="33dp" />
+
+            <LinearLayout
+                android:id="@+id/ding_linear"
+                android:orientation="vertical"
+                android:background="@drawable/paihang3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:layout_height="0dp">
+                    <ListView
+                        android:layout_marginTop="10dp"
+                        android:id="@+id/banben_list"
+                        android:layout_width="match_parent"
+                        android:layout_weight="1"
+                        android:divider="@null"
+                        android:layout_height="0dp">
+
+                    </ListView>
+
+                    <EditText
+                        android:id="@+id/xingming"
+                        android:background="@drawable/paihang4"
+                      android:layout_margin="10dp"
+                        android:textSize="12sp"
+                        android:maxLength="20"
+                        android:inputType="number"
+                        android:hint="手机号接收短信通知"
+                        android:textCursorDrawable="@drawable/color_cursor"
+                        android:paddingLeft="10dp"
+                        android:textColorHint="@color/zitiyanse9"
+                        android:textColor="@color/zitiyanse6"
+                        android:layout_width="match_parent"
+                        android:layout_height="33dp" />
+                </LinearLayout>
+                <View
+                    android:id="@+id/v1"
+                    android:background="@color/beiyingd"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"/>
+                <LinearLayout
+                    android:id="@+id/linear"
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_height="33dp">
+                    <TextView
+                        android:id="@+id/queding"
+                        android:text="确定"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:textSize="14sp"
+                        android:background="?android:attr/selectableItemBackground"
+                        android:textColor="@color/zitiyanse9"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent" />
+                    <View
+                        android:id="@+id/v2"
+                        android:background="@color/beiyingd"
+                        android:layout_width="1dp"
+                        android:layout_height="match_parent"/>
+                    <TextView
+                        android:id="@+id/quxiao"
+                        android:textSize="14sp"
+                        android:textColor="@color/zitiyanse9"
+                        android:text="取消"
+                        android:background="?android:attr/selectableItemBackground"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent" />
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:id="@+id/beiying"
+    android:background="@color/white"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/dakai_lin"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:paddingLeft="20dp"
+        android:gravity="center_vertical"
+        android:background="?android:attr/selectableItemBackground"
+        android:layout_height="43dp">
+        <ImageView
+            android:id="@+id/tubiao"
+            android:src="@mipmap/xunlei"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:text="迅雷"
+            android:textColor="@color/zitiyanse6"
+            android:id="@+id/xunlei"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+</LinearLayout>

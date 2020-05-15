@@ -1,0 +1,8 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/zitiyanse9" />
+    <corners android:radius="8dp" />
+    <size android:width="2dp" />
+   <!-- solid是实心颜色，需要渐变使用gradient
+    corners 是圆角
+    size是滚动条宽高-->
+</shape>

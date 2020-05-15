@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:id="@+id/yidong_lin"
+    android:gravity="center"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:id="@+id/yidong_linear"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ListView
+        android:id="@+id/yidong_list"
+        android:layout_width="match_parent"
+        android:divider="@color/beiyingd"
+        android:dividerHeight="1px"
+        android:scrollbarThumbVertical="@drawable/scrollbar"
+        android:layout_weight="1"
+        android:layout_height="0dp">
+
+    </ListView>
+    <View
+        android:id="@+id/v"
+        android:background="@color/beiying"
+        android:layout_width="match_parent"
+        android:layout_height="1px"/>
+    <LinearLayout
+        android:id="@+id/yidong_linear1"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="48dp">
+        <TextView
+            android:id="@+id/queding"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="确定"
+            android:textColor="@color/zitiyanse6"
+            android:background="?android:attr/selectableItemBackground"
+            android:gravity="center"
+            android:layout_height="match_parent" />
+        <View
+            android:id="@+id/v1"
+            android:background="@color/beiying"
+            android:layout_width="1px"
+            android:layout_gravity="center_vertical"
+            android:layout_height="20dp"/>
+        <TextView
+            android:id="@+id/quxiao"
+            android:layout_width="0dp"
+            android:gravity="center"
+            android:textColor="@color/zitiyanse6"
+            android:background="?android:attr/selectableItemBackground"
+            android:text="取消"
+            android:layout_weight="1"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+</LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:id="@+id/tansuo_lin"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/linear"
+        android:background="?android:attr/selectableItemBackground"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="67dp">
+        <TextView
+            android:id="@+id/weizhi"
+            android:text="1"
+            android:textSize="16sp"
+            android:textColor="@color/zitiyanse3"
+            android:layout_width="33dp"
+            android:gravity="center"
+            android:layout_height="match_parent" />
+        <ImageView
+            android:id="@+id/wenjj"
+            android:src="@mipmap/wenjj"
+            android:layout_width="31dp"
+            android:layout_height="match_parent" />
+        <LinearLayout
+            android:layout_width="0dp"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="14dp"
+            android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/name"
+                    android:text="电影"
+                    android:maxEms="50"
+                    android:ellipsize="end"
+                    android:maxLines="2"
+                    android:textColor="@color/zitiyanse3"
+                    android:textSize="16sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/time"
+                    android:text="时间"
+                    android:textColor="@color/zitiyanse9"
+                    android:textSize="14sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/size"
+
+                    android:layout_marginLeft="10dp"
+                    android:textColor="@color/zitiyanse9"
+                    android:textSize="14sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+        </LinearLayout>
+        <RelativeLayout
+            android:id="@+id/zhuan_relative"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/zhuan"
+            android:text="转存"
+            android:layout_width="47dp"
+            android:layout_marginRight="10dp"
+            android:gravity="center"
+            android:layout_centerVertical="true"
+            android:textColor="@color/zitiyanse6"
+            android:textSize="12sp"
+            android:background="@drawable/ziti"
+            android:layout_height="26dp" />
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

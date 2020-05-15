@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:id="@+id/wenjian_re"
+    android:background="@color/beiying"
+    android:layout_height="match_parent">
+    <WebView
+        android:id="@+id/webview"
+        android:layout_width="match_parent"
+        android:visibility="gone"
+        android:layout_height="match_parent">
+
+    </WebView>
+
+<LinearLayout
+    android:id="@+id/wenjian_linearlayout"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:visibility="gone"
+    android:layout_height="match_parent">
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:id="@+id/swipeRefreshLayout"
+
+        android:layout_height="0dp">
+    <ListView
+        android:id="@+id/wenjian_list"
+        android:scrollbarThumbVertical="@drawable/scrollbar"
+        android:layout_width="match_parent"
+        android:dividerHeight="1px"
+        android:layout_above="@+id/tansuo_linear"
+        android:divider="@color/beiyingd"
+        android:layout_height="match_parent"
+        >
+    </ListView>
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+
+    <ProgressBar
+        android:id="@+id/jindutiao"
+        style="@android:style/Widget.ProgressBar.Horizontal"
+        android:progressDrawable="@drawable/layer_list_progress_drawable"
+        android:layout_width="match_parent"
+        android:layout_height="1dp" />
+    <RelativeLayout
+        android:id="@+id/wen_relative"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/fanhui"
+                android:gravity="center"
+                android:visibility="gone"
+                android:text="返回"
+                android:textSize="12sp"
+                android:textColor="@color/zitiyanse6"
+                android:background="?android:attr/selectableItemBackground"
+                android:layout_width="match_parent"
+                android:layout_height="40dp" />
+    <LinearLayout
+        android:id="@+id/tansuo_linear"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:visibility="gone"
+        android:layout_height="40dp">
+
+        <TextView
+            android:id="@+id/quanxuan"
+            android:gravity="center"
+            android:text="删除"
+            android:background="?android:attr/selectableItemBackground"
+            android:textSize="12sp"
+            android:textColor="@color/zitiyanse6"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent" />
+        <View
+            android:id="@+id/view"
+            android:background="@color/beiying"
+            android:layout_width="1px"
+            android:layout_gravity="center_vertical"
+            android:layout_height="20dp"/>
+        <TextView
+            android:id="@+id/yidong"
+            android:gravity="center"
+            android:text="移动"
+            android:background="?android:attr/selectableItemBackground"
+            android:textSize="12sp"
+            android:textColor="@color/zitiyanse6"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent" />
+        <View
+            android:id="@+id/view1"
+            android:background="@color/beiying"
+            android:layout_width="1px"
+            android:layout_gravity="center_vertical"
+            android:layout_height="20dp"/>
+        <TextView
+            android:id="@+id/chongmingming"
+            android:gravity="center"
+            android:background="?android:attr/selectableItemBackground"
+            android:text="重命名"
+            android:textSize="12sp"
+            android:textColor="@color/zitiyanse6"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent" />
+        <View
+            android:id="@+id/view2"
+            android:background="@color/beiying"
+            android:layout_width="1px"
+            android:layout_gravity="center_vertical"
+            android:layout_height="20dp"/>
+        <TextView
+            android:id="@+id/fenxiang"
+            android:gravity="center"
+            android:background="?android:attr/selectableItemBackground"
+            android:text="分享"
+            android:textSize="12sp"
+            android:textColor="@color/zitiyanse6"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+        <View
+            android:id="@+id/view5"
+            android:background="@color/beiyingd"
+            android:layout_width="match_parent"
+            android:layout_height="1px"/>
+    </RelativeLayout>
+</LinearLayout>
+    <LinearLayout
+        android:id="@+id/yunpan_linear1"
+        android:layout_width="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerInParent="true"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="56dp"
+            android:src="@mipmap/baiduyun"
+            android:layout_gravity="center_horizontal"
+
+            android:layout_height="43dp" />
+        <ImageView
+            android:layout_marginTop="17dp"
+            android:layout_width="wrap_content"
+            android:src="@mipmap/denglu"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</RelativeLayout>

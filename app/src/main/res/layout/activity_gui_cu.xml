@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/beiying"
+    tools:context="com.example.myapplication.GuiCuActivity">
+
+
+    <WebView
+        android:visibility="gone"
+        android:id="@+id/webview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></WebView>
+
+
+    <GridView
+        android:layout_marginBottom="40dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:id="@+id/guicu_list"
+        android:dividerHeight="1px"
+        android:divider="@color/beiyingd"
+        android:layout_width="match_parent"
+        android:numColumns="2"
+        android:scrollbarThumbVertical="@drawable/scrollbar"
+        android:paddingRight="3dp"
+        android:scrollbarStyle="outsideOverlay"
+        android:horizontalSpacing="10dp"
+        android:verticalSpacing="10dp"
+        android:layout_height="match_parent">
+    </GridView>
+
+
+
+
+
+<RelativeLayout
+        android:layout_alignParentBottom="true"
+        android:id="@+id/fan_relative"
+        android:layout_width="match_parent"
+
+        android:layout_height="40dp">
+
+        <TextView
+            android:id="@+id/fanhui"
+            android:text="返回"
+            android:textSize="16sp"
+            android:textColor="@color/zitiyanse6"
+            android:gravity="center"
+            android:background="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <TextView
+            android:id="@+id/fan"
+            android:background="?android:attr/selectableItemBackground"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </RelativeLayout>
+
+    <View
+        android:layout_marginBottom="40dp"
+        android:background="@color/beiying"
+        android:layout_width="match_parent"
+        android:layout_height="1px"/>
+
+    <FrameLayout
+        android:background="@mipmap/deng"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></FrameLayout>
+
+
+
+</RelativeLayout>

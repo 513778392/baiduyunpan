@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:id="@+id/tansuo_li"
+    android:orientation="vertical"
+    android:background="@color/beiying"
+    android:layout_height="match_parent">
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:id="@+id/swipeRefreshLayout"
+        android:layout_height="0dp">
+  <ListView
+      android:id="@+id/tansuo_list"
+      android:layout_width="match_parent"
+      android:dividerHeight="1px"
+      android:scrollbarThumbVertical="@drawable/scrollbar"
+      android:divider="@color/beiyingd"
+      android:layout_height="match_parent">
+
+  </ListView>
+    </android.support.v4.widget.SwipeRefreshLayout>
+<View
+    android:id="@+id/view1"
+    android:background="@color/beiyingd"
+    android:layout_width="match_parent"
+    android:layout_height="1px"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:background="@color/white"
+        android:layout_height="40dp">
+
+
+        <LinearLayout
+            android:id="@+id/tansuo_linear"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:background="?android:attr/selectableItemBackground"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/shuru"
+                android:gravity="center_vertical"
+                android:text="请输入关键字或S码"
+                android:layout_marginLeft="15dp"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:textSize="12sp"
+                android:textColor="@color/zitiyanse9"
+                android:layout_height="match_parent" />
+            <View
+                android:id="@+id/view"
+                android:background="@color/beiying"
+                android:layout_width="1px"
+                android:layout_gravity="center_vertical"
+                android:layout_height="20dp"/>
+            <TextView
+                android:gravity="center"
+                android:id="@+id/sou"
+                android:text="搜索"
+                android:textSize="12sp"
+                android:textColor="#39d688"
+                android:layout_width="64dp"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

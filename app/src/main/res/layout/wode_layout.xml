@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/wode_re"
+    android:background="@color/beiying"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <com.example.viewpager.view.CircleViewPager
+        android:id="@+id/viewpager"
+        app:darkDotRes="@mipmap/huadong1"
+        app:lightDotRes="@mipmap/huadong"
+        app:dotWidth="7dp"
+        app:interval="5000"
+        android:layout_width="match_parent"
+        android:layout_height="167dp">
+    </com.example.viewpager.view.CircleViewPager>
+
+    <GridView
+        android:id="@+id/gridviiew"
+        android:layout_width="match_parent"
+        android:numColumns="3"
+        android:background="@color/beiyingd"
+        android:horizontalSpacing="1px"
+        android:verticalSpacing="1px"
+        android:layout_height="wrap_content">
+    </GridView>
+        <View
+            android:id="@+id/view"
+            android:background="@color/beiyingd"
+            android:layout_width="match_parent"
+            android:layout_height="1px"/>
+
+    </LinearLayout>
+</RelativeLayout>
